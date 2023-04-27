@@ -1,4 +1,4 @@
-<?php if( !defined('CMS') ) exit(); ?>
+<?php if( !defined('USER') ) exit(); ?>
 <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
 
@@ -18,17 +18,17 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="index.php">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="about.php">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="services.php">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="services.php">Terms of service</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.php">Начало</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="team.php">Екип</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="gallery.php">Галерия</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="contacts.php">Контакти</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="faq.php">Често задавани Въпроси </a></li>
             </ul>
           </div>
-
-          
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>

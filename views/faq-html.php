@@ -29,11 +29,11 @@ require_once 'head-html.php';
       </div>
     </div><!-- End Breadcrumbs -->
 
-
-    <section id="contact" class="contact">
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
       <?php
 
-      $sql = "SELECT  `text` FROM `pages` WHERE `id`=7;";
+      $sql = "SELECT  `text` FROM `pages` WHERE `id`=8;";
 
       $result = $conn->query($sql);
 
@@ -48,7 +48,7 @@ require_once 'head-html.php';
       $conn->close();
 
       ?>
-    </section>
+    </section><!-- End F.A.Q Section -->
 
   </main><!-- End #main -->
 

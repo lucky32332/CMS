@@ -1,4 +1,4 @@
-<?php if (!defined('CMS'))
+<?php if (!defined('USER'))
   exit(); ?>
 
 <?php

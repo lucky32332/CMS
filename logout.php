@@ -1,6 +1,6 @@
 <?php
 session_start();
-define("CMS", true);
+define("USER", true);
 require_once 'views/logout-html.php';
 if (session_destroy()) {
     // Redirecting To Home Page

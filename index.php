@@ -1,9 +1,9 @@
 <?php
 session_start();
-define("CMS", true);
+define("USER", true);
 //echo "CMS is ready";
-require_once 'includes/functions.php';
-require_once 'includes/db.php';
+require_once '../includes/functions.php';
+require_once '../includes/db.php';
 
 // require_once 'classes/user.php';
 // load user with id=1 and load his data

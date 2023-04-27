@@ -1,5 +1,5 @@
 <?php 
-if (!defined('CMS'))
+if (!defined('USER'))
     exit(); ?>
 
 ?>

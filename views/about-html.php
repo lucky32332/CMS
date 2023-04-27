@@ -1,4 +1,4 @@
-<?php if( !defined('CMS') ) exit(); ?>
+<?php if( !defined('USER') ) exit(); ?>
 
 <?php
 require_once 'head-html.php';

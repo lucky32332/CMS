@@ -29,11 +29,11 @@ require_once 'head-html.php';
       </div>
     </div><!-- End Breadcrumbs -->
 
-
-    <section id="contact" class="contact">
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio" data-aos="fade-up">
       <?php
 
-      $sql = "SELECT  `text` FROM `pages` WHERE `id`=7;";
+      $sql = "SELECT  `text` FROM `pages` WHERE `id`=6;";
 
       $result = $conn->query($sql);
 
@@ -49,7 +49,6 @@ require_once 'head-html.php';
 
       ?>
     </section>
-
   </main><!-- End #main -->
 
   <?php require_once 'footer-html.php'; ?>
